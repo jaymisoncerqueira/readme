@@ -40,7 +40,15 @@ Levanto em consideração aplicação vigente para esse sistema, é necessário 
 
 Não há a necessidade de todas imagens serem rotuladas, isso acaba demorando e diminuindo o desempenho do modelo. Visto isso, uma abordagem inicial é selecionar imagens mais detalhadas com maiores informações possíveis para que essas sim sejam rotuladas. Após esse processo, o algoritmo é capaz de selecionar uma amostra não rotulada e fazer a predição de sua classificação e após esse processo o modelo deve ser treinado novamente no entanto é possível que o modelo sejá mais eficaz mas também é possível que esse novo treinamento seja maléfico. Isso ocorre devido a dificuldade humana de rotulação de dados e levar em consideração todas as caracteristicas naquela imagem. Portanto, visto essa dificuldade humana de rutulação dos dados, utilizando uma quantidade reduzida de dados precisamente rotulados pode ter um grande retorno positivo. 
 
-A rotulação de dados geralmente é feita por equipe especializada, de forma a minimizar as variações de interpretações a respeito de um resultado
+![es](https://user-images.githubusercontent.com/87779244/129075650-51cf0b14-7831-499e-9217-455ea8696a1c.png)
+
+
+
+A rotulação de dados geralmente é feita por equipe especializada, de forma a minimizar as variações de interpretações a respeito de um resultado.
+Visto que nem todos os dados são rotulados, a imagem acima mostra um pouco de como será feita a classificação das imagens.
+O algoritmo seleciona uma amostra não rotulada que possui uma categorização incerta, logo após, é atribuido uma classificação para este exemplo com base nos dados préviamente rotulados. Em seguida, os modelos são treinadas novamente usando este novo conjunto de dados rotulados.
+Por fim, dado à dispersão dos exemplos no espaço de amostras,o processo se baseará na suposição de uniformidade, isso quer dizer que se dois pontos estão próximos no
+espaço de entrada, eles devem também estar próximos no espaço de saída, tornando possível assim a rotulação de novos dados. 
 
 
 

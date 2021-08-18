@@ -109,3 +109,5 @@ A FMEA foi utilizada para verificar as potenciais falhas de processo. Para isso,
 
 
 ![FMEA](https://user-images.githubusercontent.com/87779244/129820659-b18b5882-e0ab-4a89-8793-4a82eab5c7cd.png)
+
+Com essa análise é possível identificar que todos os índices de riscos se mostraram moderados, e aqueles que apresentaram um maior NPR estão relacionados com a parte de separação das madeiras no final do processo ou na captação de imagens. 

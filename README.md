@@ -56,6 +56,8 @@ espaço de entrada, eles devem também estar próximos no espaço de saída, tor
 
 ## FMEA (Failure Mode and Effect Analysis)
 
+A FMEA foi utilizada para verificar as potenciais falhas de processo. Para isso, é importante primeiramente identificar as possíveis causas e efeitos dessas falhas. De acordo com cada modo de falha é necessário definir a severidade, ocorrência e detecção.
+
 * Severidade da falha (IS): classificação que deve considerar questões importantes para a empresa e seus clientes como a segurança do cliente e a proteção ao meio ambiente. Sendo:
 
 1: Pouco perceptível
@@ -105,3 +107,5 @@ espaço de entrada, eles devem também estar próximos no espaço de saída, tor
 
 501-1000: Alto
 
+
+![FMEA](https://user-images.githubusercontent.com/87779244/129820659-b18b5882-e0ab-4a89-8793-4a82eab5c7cd.png)

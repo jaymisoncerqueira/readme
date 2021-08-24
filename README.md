@@ -106,9 +106,10 @@ A FMEA foi utilizada para verificar as potenciais falhas de processo. Para isso,
 100-500: Moderado
 
 501-1000: Alto
+![image](https://user-images.githubusercontent.com/87779244/130670870-6fea9362-61f7-4e58-a431-88725448ffa6.png)
+![image](https://user-images.githubusercontent.com/87779244/130671076-a3e8f622-b29d-438b-891d-08433d40d124.png)
 
 
 
-![FMEA](https://user-images.githubusercontent.com/87779244/129822560-e3fd8b6c-e714-4c8f-ba16-6fde8f07c162.png)
 
 Com essa análise é possível identificar que todos os índices de riscos se mostraram moderados, e aqueles que apresentaram um maior NPR estão relacionados com a parte de separação das madeiras no final do processo ou na captação de imagens. 
